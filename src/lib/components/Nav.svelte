@@ -58,8 +58,8 @@
 	}
 </script>
 
-<div class="fixed top-0 w-full px-3 md:px-6 transition-[padding] duration-300 {scrolled ? 'pt-3 md:pt-4' : 'pt-4 md:pt-8'} pointer-events-none" style="z-index: var(--z-nav);">
-	<nav class="max-w-5xl mx-auto liquid-panel liquid-panel-blur flex items-center justify-between px-6 py-3 pointer-events-auto shadow-2xl relative" style="background: var(--color-card); border-color: var(--color-rule);">
+<div class="fixed inset-x-0 top-0 px-3 md:px-6 transition-[padding] duration-300 {scrolled ? 'pt-3 md:pt-4' : 'pt-4 md:pt-8'} pointer-events-none" style="z-index: var(--z-nav);">
+	<nav class="mx-auto flex w-full max-w-5xl items-center justify-between px-6 py-3 pointer-events-auto relative liquid-panel liquid-panel-blur shadow-2xl" style="background: var(--color-card); border-color: var(--color-rule);">
 		<a href={resolve('/')} class="flex items-center gap-3 group shrink-0">
 			<img src={siteContent.teamLogoUrl} alt="{siteContent.teamName} logo" class="h-6 w-6 shrink-0 object-contain" />
 			<span class="mono-label group-hover:text-primary transition-colors">{siteContent.teamNumber}</span>
